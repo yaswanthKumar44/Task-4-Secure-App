@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.error {
+    display: none;
+}
+
+.error.show {
+    display: block;
+}
+
+input:invalid, textarea:invalid {
+    border-color: #ef4444;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
